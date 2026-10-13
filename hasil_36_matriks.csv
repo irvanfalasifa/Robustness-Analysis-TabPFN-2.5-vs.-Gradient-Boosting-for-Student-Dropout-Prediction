@@ -1,0 +1,37 @@
+Time_Scenario,Imbalance_Strategy,Model,Mean_Macro_F1,Mean_Balanced_Acc,Mean_ROC_AUC,Exec_Time (s)
+T1 (Enrollment-only),I0,XGBoost,0.5342,0.5341,0.7517,1.43
+T1 (Enrollment-only),I0,LightGBM,0.5372,0.5374,0.761,1.73
+T1 (Enrollment-only),I0,CatBoost,0.5323,0.5329,0.7554,21.73
+T1 (Enrollment-only),I0,TabPFN,0.5477,0.5492,0.7915,38.83
+T1 (Enrollment-only),I1,XGBoost,0.5342,0.5341,0.7517,7.61
+T1 (Enrollment-only),I1,LightGBM,0.5599,0.5607,0.7615,2.49
+T1 (Enrollment-only),I1,CatBoost,0.5362,0.5357,0.748,24.46
+T1 (Enrollment-only),I1,TabPFN,0.5477,0.5492,0.7915,34.45
+T1 (Enrollment-only),I2,XGBoost,0.5406,0.539,0.7482,3.2
+T1 (Enrollment-only),I2,LightGBM,0.5528,0.5521,0.7575,1.43
+T1 (Enrollment-only),I2,CatBoost,0.5495,0.548,0.7536,27.45
+T1 (Enrollment-only),I2,TabPFN,0.5315,0.5397,0.7891,52.41
+T2 (Early Academic),I0,XGBoost,0.6566,0.6512,0.8599,3.36
+T2 (Early Academic),I0,LightGBM,0.6609,0.6542,0.8644,1.49
+T2 (Early Academic),I0,CatBoost,0.6487,0.6446,0.8628,25.93
+T2 (Early Academic),I0,TabPFN,0.6961,0.6857,0.8852,35.84
+T2 (Early Academic),I1,XGBoost,0.6566,0.6512,0.8599,3.03
+T2 (Early Academic),I1,LightGBM,0.6856,0.6838,0.8631,2.24
+T2 (Early Academic),I1,CatBoost,0.6681,0.6656,0.8591,24.65
+T2 (Early Academic),I1,TabPFN,0.6961,0.6857,0.8852,37.24
+T2 (Early Academic),I2,XGBoost,0.6636,0.6595,0.8544,2.12
+T2 (Early Academic),I2,LightGBM,0.6689,0.6659,0.8597,1.72
+T2 (Early Academic),I2,CatBoost,0.6631,0.6593,0.8586,29.37
+T2 (Early Academic),I2,TabPFN,0.6887,0.679,0.8837,54.99
+T3 (Full-info Benchmark),I0,XGBoost,0.6935,0.6859,0.882,4.47
+T3 (Full-info Benchmark),I0,LightGBM,0.6986,0.6903,0.8877,1.67
+T3 (Full-info Benchmark),I0,CatBoost,0.6841,0.677,0.885,30.97
+T3 (Full-info Benchmark),I0,TabPFN,0.7251,0.7146,0.9056,38.72
+T3 (Full-info Benchmark),I1,XGBoost,0.6935,0.6859,0.882,2.15
+T3 (Full-info Benchmark),I1,LightGBM,0.7147,0.7122,0.8855,1.71
+T3 (Full-info Benchmark),I1,CatBoost,0.7048,0.7022,0.8825,31.09
+T3 (Full-info Benchmark),I1,TabPFN,0.7251,0.7146,0.9056,39.38
+T3 (Full-info Benchmark),I2,XGBoost,0.6996,0.6942,0.8793,3.21
+T3 (Full-info Benchmark),I2,LightGBM,0.7088,0.7054,0.8846,3.14
+T3 (Full-info Benchmark),I2,CatBoost,0.6978,0.6936,0.8816,35.51
+T3 (Full-info Benchmark),I2,TabPFN,0.7273,0.7179,0.9043,58.67
