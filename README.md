@@ -68,6 +68,8 @@ Based on the execution of the 36-Matrix Pipeline, the analysis yielded the follo
    * In the final untouched test, the tuned **CatBoost** achieved an overall Accuracy of **0.71** and a Macro F1 of **0.67**.
    * **SHAP (Feature Importance)** revealed that `Curricular units 1st sem (approved)`, `Curricular units 1st sem (grade)`, and `Tuition fees up to date` are the top three defining factors for student dropout.
    * The minority class (`Enrolled`) remains the hardest to predict, highlighting the gray area of students who are active but struggling.
+     <img width="2351" height="2864" alt="6_SHAP_Feature_Importance" src="https://github.com/user-attachments/assets/007c12ff-69b5-427b-ac0d-6bbc111c8aed" />
+
 
 ## 🚫 Exclusions (Out of Scope)
 To maintain academic rigor and focus on the core research questions, the following aspects were intentionally excluded from this project:
