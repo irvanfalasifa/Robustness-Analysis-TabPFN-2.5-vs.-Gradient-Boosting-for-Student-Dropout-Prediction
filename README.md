@@ -20,6 +20,8 @@ Instead of merely chasing the highest standard accuracy, this project focuses on
   * `Graduate`: 2,209 observations (49.93%)
   * `Dropout`: 1,421 observations (32.12%)
   * `Enrolled`: 794 observations (17.95%) *(Minority Class)*
+ <img width="2140" height="1434" alt="1_Distribusi_Target" src="https://github.com/user-attachments/assets/e2234bdc-8e5b-40e3-9067-d9cbce19adca" />
+
 
 ## 🔬 Methodology: Rigorous ML Experimentation
 The pipeline strictly adheres to the **CRISP-DM** methodology and implements a strict **Anti-Data Leakage Protocol**:
@@ -29,10 +31,14 @@ The pipeline strictly adheres to the **CRISP-DM** methodology and implements a s
     * `T1`: Enrollment-only features (21 features - Early Detection).
     * `T2`: Enrollment + 1st Semester features (27 features - Early Academic).
     * `T3`: Full Information (33 features - Retrospective Benchmark).
+      <img width="2082" height="1138" alt="2_Jumlah_Fitur_Waktu" src="https://github.com/user-attachments/assets/6b8a9405-c300-45b6-9e78-22e0547bd3b2" />
+
   * **3 Imbalance Strategies (Dimension B):** 
     * `I0`: Original distribution.
     * `I1`: Class Weighting (Cost-sensitive learning).
     * `I2`: Random Oversampling (Applied *only* to the training folds during CV).
+      <img width="3547" height="1443" alt="3_Dampak_Oversampling_ROS" src="https://github.com/user-attachments/assets/fa80b75b-1a3e-4195-95bc-cebad78b5235" />
+
   * **4 Algorithms (Dimension C):** TabPFN-2.5, XGBoost, LightGBM, CatBoost.
 
 ## 📈 Evaluation Metrics
@@ -41,6 +47,12 @@ To prevent misleading conclusions caused by class imbalance, standard accuracy i
 * **Balanced Accuracy**
 * **Precision-Recall AUC (PR-AUC)** (Crucial for identifying the minority class)
 * **Statistical Significance:** Evaluated using the **Friedman Test** (p < 0.05).
+  <img width="1579" height="1427" alt="4_Final_Confusion_Matrix" src="https://github.com/user-attachments/assets/38bb9eb6-8dd0-489b-a8ee-fdcf41a55184" />
+  <img width="472" height="247" alt="accuracy" src="https://github.com/user-attachments/assets/073c9a44-5530-4b3e-8952-b4af0b9f1797" />
+  <img width="2097" height="1658" alt="5_Final_PR_AUC_Curve" src="https://github.com/user-attachments/assets/a08dd450-a899-4036-8e98-58ca2a0493a5" />
+
+
+
 
 ## 🏆 Key Findings & Experimental Results
 Based on the execution of the 36-Matrix Pipeline, the analysis yielded the following transparent insights:
